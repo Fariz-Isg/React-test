@@ -5,7 +5,7 @@ export default function Test1(props) {
     <div>
       <div className='to-do-lis'>
         <ul>
-        {props.data.map((todo) => <div key={todo.div} className="to-dos">{todo.title}</div>)}
+        {props.data.map((todo) => <li key={todo.div} className="to-dos">{todo.title}</li>)}
         </ul>
       </div>
     </div>
